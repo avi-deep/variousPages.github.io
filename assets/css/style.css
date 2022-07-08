@@ -103,8 +103,11 @@ main{
 
 .row {
     margin: 0;
-    background-color: rgba(190, 190, 190, 0.521);
     padding-bottom: 65px;
+}
+
+.row1{
+    background-color: rgba(190, 190, 190, 0.521);
 }
 
 .card{
@@ -122,5 +125,48 @@ main{
 .flex-head {
     font-family: nectarBold;
     text-align: center;
-    margin: 50px auto;
+    margin: 50px auto 10px auto;
 }
+
+.flex-text{
+    font-family: nectarBold;
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 10px;
+}
+
+
+/* DIV PAGE DIVS */
+
+.div-cont{
+    font-family: nectarBold;
+}
+
+.div {
+    margin: 10px;
+    background-color: aqua;
+    padding: 75px;
+}
+
+.div p{
+    font-family: nectar;
+    font-weight: 550;
+}
+
+.one{
+    border: #000000 solid 2px;
+}
+
+.two{
+    background-color: rgb(81, 31, 197);
+    opacity: 50%;
+    color: #ffffff;
+}
+
+.div-text{
+    background-color: #000000;
+    padding:15px;
+}
+
+
+
