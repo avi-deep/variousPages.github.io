@@ -1,3 +1,3 @@
 # variousPages.github.io
 
-A Basic Website With Child Pages
+A Basic Website With Child Pages (with Bootstrap)
