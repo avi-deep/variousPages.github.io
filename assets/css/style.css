@@ -1,0 +1,49 @@
+@font-face {
+    font-family: ronaldBold;
+    src: url(../fonts/RondalBold-2O4lW.otf);
+}
+@font-face {
+    font-family: ronaldReg;
+    src: url(../fonts/RondalRegular-K7ORW.otf);
+}
+@font-face {
+    font-family: ronaldSemi;
+    src: url(../fonts/RondalSemibold-vmZ5Z.otf);
+}
+@font-face {
+    font-family: Geraldien;
+    src: url(../fonts/GeraldinePersonalUseItalic-PK12m.ttf);
+}
+@font-face {
+    font-family: sage;
+    src: url(../fonts/SageylSageyl-rgGnB.ttf);
+}
+@font-face {
+    font-family: cutie;
+    src: url(../fonts/CutieBiscuit-8MjAB.ttf);
+}
+@font-face {
+    font-family: eastgold;
+    src: url(../fonts/Eastgold-8MBnz.ttf);
+}
+@font-face {
+    font-family: nectarBold;
+    src: url(../fonts/Nectar\ Bold.otf);
+}
+@font-face {
+    font-family: nectar;
+    src: url(../fonts/Nectar\ Regular.otf);
+}
+@font-face {
+    font-family: existanceLigth;
+    src: url(../fonts/Existence-Light.otf);
+}
+
+/* STYLES ON ALL PAGES */
+
+.navbar-brand{
+    font-family: eastgold;
+    font-size: 35px;
+}
+
+/* HEADINGS STYLES */
