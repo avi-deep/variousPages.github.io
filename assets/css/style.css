@@ -101,14 +101,16 @@ main{
 
 /* IMG PAGE STYLES */
 
+.row1{
+    background-color: rgba(190, 190, 190, 0.521);
+}
+
+
 .row {
     margin: 0;
     padding-bottom: 65px;
 }
 
-.row1{
-    background-color: rgba(190, 190, 190, 0.521);
-}
 
 .card{
     display: block;
