@@ -97,3 +97,30 @@ main{
 .expi-list header{
     font-weight: bold;
 }
+
+
+/* IMG PAGE STYLES */
+
+.row {
+    margin: 0;
+    background-color: rgba(190, 190, 190, 0.521);
+    padding-bottom: 65px;
+}
+
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+
+/* FLEX BOX PAGE STYLES */
+.flex-head {
+    font-family: nectarBold;
+    text-align: center;
+    margin: 50px auto;
+}
