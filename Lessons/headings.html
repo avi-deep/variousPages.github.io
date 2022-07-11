@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Avi Deep</a>
@@ -37,73 +38,77 @@
             </li>
           </ul>
         </div>
-    </nav>
+    </nav>   
 
-    <div class="row">
-        <div class="col with-vp">
-            <h1 class="main-h1">HEADINGS WITH VIEWPORT</h1>
-            <section>
-                <header style="font-size:1vw">All Headings Have a Font Size of 1vw</header>
-                <h1 style="font-size:1vw">H1: this is the same as H2</h1>
-                <h2 style="font-size:1vw">H2: this is the same as H1</h2>
-                <h3 style="font-size:1vw">H3: getting smaller, and bolded</h3>
-                <h4 style="font-size:1vw">H4: getting smaller, and bolded</h4>
-                <h5 style="font-size:1vw">H5: getting smaller, and bolded</h5>
-                <h6 style="font-size:1vw">H6: getting smaller, and bolded</h6>
-                <h7 style="font-size:1vw">H7: doesn't exist. Defaults are used instead</h7>
-                <br>
-                <h8 style="font-size:1vw">H8: doesn't exist. Defaults are used instead</h8>
-                <p style="font-size:1vw">as the screen size changes, the font gets smaller - this is usually used to make a web page/ website responsive</p>
-            </section>
-            <aside class="expi-list">
-                <header style="font-size:1vw">What this experiement is about (in the aside space)?</header>
-                <ul style="font-size:1vw">
-                    <li>H-tags & p-tag in section vs. section-article
-                    <li>Illustration of default regular font-size
-                    <li>Illustration of default font 
-                    <li>Concept: different browsers will show this differently
-                    <li>Semantic-tags and a-tags have no built-in formatting
-                    <li>article only?
-                    <li>article-seciton?
-                </ul>
-            </aside>
+    <main>
+        <div class="row">
+            <div class="col with-vp">
+                <header>
+                    <h1 class="main-h1">HEADINGS WITH VIEWPORT</h1>
+                </header>
+                <section>
+                    <header style="font-size:1vw">All Headings Have a Font Size of 1vw</header>
+                    <h1 style="font-size:1vw">H1: this is the same as H2</h1>
+                    <h2 style="font-size:1vw">H2: this is the same as H1</h2>
+                    <h3 style="font-size:1vw">H3: getting smaller, and bolded</h3>
+                    <h4 style="font-size:1vw">H4: getting smaller, and bolded</h4>
+                    <h5 style="font-size:1vw">H5: getting smaller, and bolded</h5>
+                    <h6 style="font-size:1vw">H6: getting smaller, and bolded</h6>
+                    <h7 style="font-size:1vw">H7: doesn't exist. Defaults are used instead</h7>
+                    <br>
+                    <h8 style="font-size:1vw">H8: doesn't exist. Defaults are used instead</h8>
+                    <p style="font-size:1vw">as the screen size changes, the font gets smaller - this is usually used to make a web page/ website responsive</p>
+                </section>
+                <aside class="expi-list">
+                    <header style="font-size:1vw">What this experiement is about (in the aside space)?</header>
+                    <ul style="font-size:1vw">
+                        <li>H-tags & p-tag in section vs. section-article
+                        <li>Illustration of default regular font-size
+                        <li>Illustration of default font 
+                        <li>Concept: different browsers will show this differently
+                        <li>Semantic-tags and a-tags have no built-in formatting
+                        <li>article only?
+                        <li>article-seciton?
+                    </ul>
+                </aside>
+            </div>
+            <div class="col without-vp">
+                <header>
+                    <h1 class="main-h1">HEADINGS WITHOUT VIEWPORT</h1>
+                </header>
+                
+                <header>
+                    <h1>H1: Headings and Paragraph Tags with viewport</h1>
+                    <h2>H2: Headings and Paragraph Tags with viewport</h2>
+                    <h3>H3: Headings and Paragraph Tags with viewport</h3>
+                    <h4>H3: Headings and Paragraph Tags with viewport</h4>
+                    <h5>H3: Headings and Paragraph Tags with viewport</h5>
+                    <h6>H3: Headings and Paragraph Tags with viewport</h6>
+                    <h7>H7: doesn't exist. Defaults are used instead</h7>
+                    <br>
+                    <h8>H8: doesn't exist. Defaults are used instead</h8>
+                    <p>This is a paragraph tag inside a section-article. <br> notice H-tags include bold, line breaks, and extra space</p>
+                </header>
+                <aside class="expi-list">
+                    <header style="font-weight:bold;">What this experiement is about (in the aside space)?</header>
+                    <ul>
+                        <li>H-tags & p-tag in section vs. section-article
+                        <li>Illustration of default regular font-size
+                        <li>Illustration of default font 
+                        <li>Concept: different browsers will show this differently
+                        <li>Semantic-tags and a-tags have no built-in formatting
+                        <li>article only?
+                        <li>article-seciton?
+                    </ul>
+                </aside>
+            </div>
         </div>
-        <div class="col without-vp">
-            <h1 class="main-h1">HEADINGS WITHOUT VIEWPORT</h1>
-            
-            <header>
-                <h1>H1: Headings and Paragraph Tags with viewport</h1>
-                <h2>H2: Headings and Paragraph Tags with viewport</h2>
-                <h3>H3: Headings and Paragraph Tags with viewport</h3>
-                <h4>H3: Headings and Paragraph Tags with viewport</h4>
-                <h5>H3: Headings and Paragraph Tags with viewport</h5>
-                <h6>H3: Headings and Paragraph Tags with viewport</h6>
-                <h7>H7: doesn't exist. Defaults are used instead</h7>
-                <br>
-                <h8>H8: doesn't exist. Defaults are used instead</h8>
-                <p>This is a paragraph tag inside a section-article. <br> notice H-tags include bold, line breaks, and extra space</p>
-            </header>
-            <aside class="expi-list">
-                <header style="font-weight:bold;">What this experiement is about (in the aside space)?</header>
-                <ul>
-                    <li>H-tags & p-tag in section vs. section-article
-                    <li>Illustration of default regular font-size
-                    <li>Illustration of default font 
-                    <li>Concept: different browsers will show this differently
-                    <li>Semantic-tags and a-tags have no built-in formatting
-                    <li>article only?
-                    <li>article-seciton?
-                </ul>
-            </aside>
-        </div>
-    </div>
+    </main>
 
     <footer class="mt-auto">
         <p>&copy Avi Deep, powered by avi-deep in GitHub</p>
     </footer>
   
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

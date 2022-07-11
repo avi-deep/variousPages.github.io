@@ -57,7 +57,7 @@ footer{
 }
 
 /* ONLY HOME PG STYLES */
-main{
+.home-main{
     text-align: center;
     background-image: url('../images/mymind-XUlsF9LYeVk-unsplash.jpg');
     background-repeat: no-repeat;
